@@ -1,0 +1,225 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.header {
+	background-image: url(../img/back1.png);
+	background-repeat:  no-repeat;
+	color: white;
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.header_back2 {
+	background: url(../img/setka.png);
+}
+.line {
+	border: 2px solid white;
+}
+.header h3 {
+    text-align: center;
+    text-shadow: 0px 0px 40px rgba(37, 109, 90, 0.5), 0 0 20px rgba(211, 220, 218, 0.4);
+    font-size: 33px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.video {
+	padding: 30px 0px;
+}
+h2.zag {
+	text-align: center;
+	margin: 25px 0px;
+	font-size: 55px;
+	font-weight: bold;
+}
+.video .item {
+
+    background: linear-gradient(to right, #206bfe, #c125fe);
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.xar {
+	display: block;
+	position: relative;
+}
+.xar .ls {
+    float: left;
+	width: 60%;
+}
+.xar .rs {
+    float: right;
+    text-align: right;
+	width: 40%;
+}
+.catalog .item {
+	padding: 10px;
+}
+.catalog .item-back {
+	background: white;
+	padding: 30px;
+}
+.catalog .item img {
+	max-height: 330px;
+}
+.xar span {
+	font-size: 18px;
+}
+.clear {
+	clear: both;
+}
+.catalog h4 {
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+}
+button.owl-prev {
+    position: absolute;
+    left: -55px;
+    top: 40%;
+    width: 64px;
+    height: 64px;
+    color: white;
+    background: url(../img/back.png) no-repeat !important;
+}
+
+button.owl-prev span{
+	display: none;
+}
+button.owl-next {
+    position: absolute;
+    right: -55px;
+    top: 40%;
+    width: 64px;
+    height: 64px;
+    color: white;
+    background: url(../img/next.png) no-repeat !important;
+}
+
+button.owl-next span{
+	display: none;
+}
+.manag form {
+	display: flex;
+}
+form .input-back {
+	padding: 2px;
+	border-radius: 13px;
+}
+form input {
+	width: 100%;
+	border: none;
+	background: white;
+	height: 50px;
+	border-radius: 10px;
+}
+form input[type="text"]{
+	padding-left: 10px;
+}
+form input[type="submit"]{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	background: #e93529;
+}
+.manag h2 {
+	margin: 0px;
+}
+.manag h3 {
+	text-align: center;
+}
+.manag {
+	color: white;
+}
+.manag-back{
+	background: url(../img/setka.png);
+	height: 100%;
+	padding: 30px 0px;
+}
+.manag p {
+	font-size: 18px;
+	font-weight: bold;
+}
+.mobile_visible {
+	display: none;
+}
+@media screen and (max-width: 769px) {
+.delivery p {
+	text-align: justify;
+}
+	.header {
+		height: 100%;
+	}
+	.header_back2 {
+		padding: 40px 0px;
+	}
+	h2.zag {
+		font-size: 38px;
+	}
+	.manag form {
+		display: block;
+	}
+	form .input-back {
+	    margin: 10px 0px;
+	}
+	h1 {
+		font-size: 40px
+	}
+	.header h2 {
+		font-size: 30px;
+	}
+	.header h3 {
+		font-size: 27px;
+	}
+	.catalog .item {
+		padding: 3px;
+	}
+	.catalog .item-back {
+		padding: 10px;
+	}
+	.xar span {
+		font-size: 13px;
+	}
+	.xar .rs {
+		width: 30%;
+	}
+	.xar .ls {
+		width: 70%;
+	}
+	.marquiz__button_rounded {
+		padding: 18px 50px !important;
+	}
+	.video .item {
+		padding: 5px;
+	}
+	.mobile_hide {
+		display: none;
+	}
+	.mobile_visible {
+		display: block;
+	}
+	.delivery h3 {
+		text-align: center;
+	}
+	button.owl-prev {
+	    position: absolute;
+	    left: -14px;
+	    top: 40%;
+	    width: 64px;
+	    height: 64px;
+	    color: white;
+	    background-color: white !important;
+	    background-image: url(../img/back.png) !important;
+	}
+	button.owl-next {
+	    position: absolute;
+	    right: -14px;
+	    top: 40%;
+	    width: 64px;
+	    height: 64px;
+	    color: white;
+	    background-color: white !important;
+	    background-image: url(../img/next.png) !important;
+	}
+}
